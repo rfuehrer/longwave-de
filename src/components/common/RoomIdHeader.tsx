@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { CenteredRow } from "./LayoutElements";
 import { faCogs } from "@fortawesome/free-solid-svg-icons";
 import { faUndo } from "@fortawesome/free-solid-svg-icons";
+import { faCopy } from "@fortawesome/free-solid-svg-icons";
 import Tippy from "@tippyjs/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useContext } from "react";
@@ -37,6 +38,7 @@ export function RoomIdHeader() {
 
 function RoomMenu() {
   const { t, i18n } = useTranslation();
+  const { roomId }: { [k: string]: any } = useParams();
 
   const changeLanguage = (language: string | undefined) => {
     i18n.changeLanguage(language);
@@ -53,6 +55,14 @@ function RoomMenu() {
         onClick={() => setGameState(InitialGameState())}
       >
         <FontAwesomeIcon icon={faUndo} />{" "}{t("roomidheader.reset_room")}
+      </div>
+
+      <div
+        tabIndex={0}
+        style={{ cursor: "pointer" }}
+        onClick={() => {navigator.clipboard.writeText(window.location.href)}}
+      >
+        <FontAwesomeIcon icon={faCopy} />{" "}{t("roomidheader.copy_room_link")}
       </div>
 
       <div
