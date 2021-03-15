@@ -60,9 +60,23 @@ function RoomMenu() {
       <div
         tabIndex={0}
         style={{ cursor: "pointer" }}
+      >
+        {" "}
+      </div>
+
+      <div
+        tabIndex={0}
+        style={{ cursor: "pointer" }}
         onClick={() => {navigator.clipboard.writeText(window.location.href)}}
       >
         <FontAwesomeIcon icon={faCopy} />{" "}{t("roomidheader.copy_room_link")}
+      </div>
+
+      <div
+        tabIndex={0}
+        style={{ cursor: "pointer" }}
+      >
+        {" "}
       </div>
 
       <div
