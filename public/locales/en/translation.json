@@ -32,8 +32,8 @@
     "the_player": "THE PLAYER"
   },
   "counterguess": {
-    "more_left": "Target is to the left",
-    "more_right": "Target is to the right",
+    "to_left_side": "Target is to the left",
+    "to_right_side": "Target is to the right",
     "players_clue": "{{givername}}'s clue",
     "waiting_guess_team": "Waiting for {{guessteam}} to guess left/right..."
   },
@@ -85,7 +85,7 @@
     "winning_team": "{{winnerteam}} wins!",
     "1_point_correct_guess": "1 point for their correct counter guess.",
     "0_point_wrong_guess": "0 points for their counter guess.",
-    "bonus_turn": "Your team earned a <strong>bonus turn!</strong>",
+    "bonus_turn": "Your team earned a BONUS TURN!",
     "reset_game": "Reset game",
     "game_finished": "Game complete",
     "final_score_team": "Your team's final cooperative score",

@@ -30,8 +30,8 @@ export function LandingPage() {
         {t("landingpage.best_enjoyed")}
       </p>
       <CenteredRow style={{ alignSelf: "flex-end" }}>
-        <Button onClick={() => changeLanguage("en")} text="EN" />
-        <Button onClick={() => changeLanguage("de")} text="DE" />
+        <Button onClick={() => changeLanguage("en")} text="&#127468;&#127463;" />
+        <Button onClick={() => changeLanguage("de")} text="&#127465;&#127466;" />
       </CenteredRow>
     </CenteredColumn>
   );
