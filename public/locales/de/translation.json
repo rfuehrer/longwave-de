@@ -14,7 +14,7 @@
     },
     "roomidheader": {
         "roomid": "Raum ID:",
-        "reset_room": "Setze Raum zurück",
+        "reset_room": "Raum zurücksetzen",
         "copy_room_link": "Raum-Link kopieren",
         "switch_language_header": "Spracheinstellung",
         "language_en": "English",
