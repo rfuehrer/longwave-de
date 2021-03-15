@@ -310,6 +310,20 @@ const AdditionalSpectrumCards: [string, string][] = [
   ["Kassenbereich", "Gangragal"],
   ["Geizig", "Spendabel"],
   ["See", "Ozean"],
+
+
+  ["Karnismus", "Veganismus"],
+  ["Vergangenheit", "Zukunft"],
+  ["Massenanfertigung", "Unikat"],
+  ["Lokal", "global"],
+  ["Oase", "Wüste"],
+  ["Fisch", "Fleisch"],
+  ["Mädchen", "Frau"],
+  ["Junge", "Mann"],
+  ["Fortschrittlich", "veraltet"],
+  ["Liberal", "autokratisch"],
+  ["Religiöser Fanatiker", "Atheist"],
+  ["Bud Spencer", "Terence Hill"],
 ];
 
 const AgileSpectrumCards: [string, string][] = [["Agil", "Wasserfall"]];
