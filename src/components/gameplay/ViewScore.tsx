@@ -79,7 +79,7 @@ function NextTurnOrEndGame() {
 
   const resetButton = (
     <Button
-      text='{t("viewscore.reset_game")}'
+      text={t("viewscore.reset_room")}
       onClick={() => {
         setGameState({
           ...InitialGameState(),
